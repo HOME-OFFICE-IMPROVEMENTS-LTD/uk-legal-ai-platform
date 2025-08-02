@@ -1,0 +1,78 @@
+{
+  "stripe": {
+    "publishable_key": "pk_test_legal_platform_key",
+    "webhook_endpoint": "/api/payments/stripe/webhook",
+    "supported_currencies": [
+      "GBP",
+      "USD",
+      "EUR"
+    ],
+    "legal_tiers": {
+      "basic": {
+        "price_gbp": 79,
+        "price_usd": 99,
+        "features": [
+          "100 documents/month",
+          "23 specialized LLMs",
+          "Basic contract analysis",
+          "Email support",
+          "Standard encryption"
+        ]
+      },
+      "professional": {
+        "price_gbp": 199,
+        "price_usd": 249,
+        "features": [
+          "500 documents/month",
+          "23 specialized LLMs",
+          "Advanced contract analysis",
+          "Legal research tools",
+          "Priority support",
+          "Enhanced encryption",
+          "Microsoft Office integration"
+        ]
+      },
+      "law_firm": {
+        "price_gbp": 499,
+        "price_usd": 629,
+        "features": [
+          "2000 documents/month",
+          "23 specialized LLMs",
+          "Complete legal suite",
+          "Multi-user accounts",
+          "Dedicated support",
+          "Enterprise encryption",
+          "Microsoft Teams integration"
+        ]
+      },
+      "enterprise": {
+        "price_gbp": 999,
+        "price_usd": 1249,
+        "features": [
+          "Unlimited documents",
+          "23 specialized LLMs",
+          "Complete legal AI suite",
+          "Unlimited users",
+          "24/7 dedicated support",
+          "Military-grade encryption",
+          "OnionShare Tor integration",
+          "API access",
+          "Custom AI model training"
+        ]
+      }
+    }
+  },
+  "paypal": {
+    "client_id": "paypal_legal_client_id",
+    "webhook_endpoint": "/api/payments/paypal/webhook",
+    "supported_currencies": [
+      "GBP",
+      "USD"
+    ]
+  },
+  "fossbilling": {
+    "api_endpoint": "https://mobot-enterprise-api.redforest-36bfb1e8.eastus.azurecontainerapps.io/api/fossbilling",
+    "webhook_endpoint": "/api/payments/fossbilling/webhook",
+    "subscription_management": true
+  }
+}

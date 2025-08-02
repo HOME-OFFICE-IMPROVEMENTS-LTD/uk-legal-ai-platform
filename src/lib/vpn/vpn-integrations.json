@@ -1,0 +1,84 @@
+{
+  "wireguard": {
+    "server_endpoint": "legal-vpn.hoiltd.com:51820",
+    "features": [
+      "Ultra-fast legal document transfer",
+      "Point-to-point lawyer-client encryption",
+      "Mobile app support for remote work",
+      "Minimal attack surface",
+      "Cross-platform compatibility"
+    ],
+    "legal_benefits": [
+      "GDPR compliance for EU clients",
+      "Attorney-client privilege protection",
+      "Secure remote court appearances",
+      "Encrypted case file synchronization"
+    ],
+    "api_endpoints": [
+      "/api/vpn/wireguard/create-config",
+      "/api/vpn/wireguard/revoke-access",
+      "/api/vpn/wireguard/monitor-usage"
+    ],
+    "pricing": {
+      "included_in_tiers": [
+        "law_firm",
+        "enterprise"
+      ],
+      "standalone_price_gbp": 49
+    }
+  },
+  "tailscale": {
+    "mesh_network": "legal-hoiltd-mesh",
+    "features": [
+      "Zero-config mesh VPN for law firms",
+      "Automatic device discovery",
+      "ACL-based access control",
+      "Integration with identity providers"
+    ],
+    "legal_benefits": [
+      "Multi-office law firm connectivity",
+      "Secure home office access",
+      "Client portal access control",
+      "Audit logging for compliance"
+    ],
+    "api_endpoints": [
+      "/api/vpn/tailscale/invite-device",
+      "/api/vpn/tailscale/set-permissions",
+      "/api/vpn/tailscale/audit-access"
+    ],
+    "pricing": {
+      "included_in_tiers": [
+        "enterprise"
+      ],
+      "addon_price_gbp": 99
+    }
+  },
+  "openvpn": {
+    "server_config": "legacy-legal-vpn.hoiltd.com",
+    "features": [
+      "Legacy system compatibility",
+      "Traditional certificate-based auth",
+      "Windows/Mac/Linux support",
+      "LDAP integration"
+    ],
+    "legal_benefits": [
+      "Compatible with legacy legal software",
+      "Court system integration",
+      "Established security protocols",
+      "Compliance with traditional IT policies"
+    ],
+    "api_endpoints": [
+      "/api/vpn/openvpn/generate-cert",
+      "/api/vpn/openvpn/revoke-cert",
+      "/api/vpn/openvpn/connection-logs"
+    ],
+    "pricing": {
+      "included_in_tiers": [
+        "professional",
+        "law_firm",
+        "enterprise"
+      ],
+      "standalone_price_gbp": 29
+    }
+  }
+}

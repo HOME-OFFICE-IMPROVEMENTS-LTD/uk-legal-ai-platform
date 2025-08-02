@@ -1,0 +1,42 @@
+{
+  "security_features": {
+    "anonymous_uploads": true,
+    "tor_network_only": true,
+    "self_destructing_shares": true,
+    "no_ip_logging": true,
+    "end_to_end_encryption": true
+  },
+  "legal_use_cases": [
+    "Whistleblower document sharing",
+    "Sensitive criminal defense evidence",
+    "Corporate investigation materials",
+    "High-profile case documents",
+    "Witness protection communications"
+  ],
+  "pricing": {
+    "addon_price_gbp": 299,
+    "addon_price_usd": 379,
+    "included_in_tiers": [
+      "enterprise"
+    ],
+    "available_for": [
+      "law_firm",
+      "enterprise"
+    ]
+  },
+  "technical_requirements": {
+    "tor_browser_required": true,
+    "onionshare_cli": true,
+    "secure_storage": true,
+    "automated_cleanup": true,
+    "expiry_hours_default": 24,
+    "max_upload_size_mb": 100
+  },
+  "compliance_features": [
+    "GDPR compliant anonymous uploads",
+    "No metadata retention",
+    "Self-destructing evidence shares",
+    "Tor network anonymity",
+    "End-to-end encryption"
+  ]
+}

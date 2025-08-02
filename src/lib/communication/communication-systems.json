@@ -1,0 +1,63 @@
+{
+  "3cx": {
+    "server_url": "https://legal-pbx.hoiltd.com",
+    "legal_features": [
+      "Call recording for legal compliance",
+      "Conference calling for case discussions",
+      "CRM integration with case management",
+      "Mobile apps for court appearances",
+      "Voicemail transcription with AI",
+      "Secure client consultation calls"
+    ],
+    "compliance_features": [
+      "Automatic call recording consent",
+      "GDPR-compliant call storage",
+      "Attorney-client privilege protection",
+      "Audit trails for regulatory compliance"
+    ],
+    "api_endpoints": [
+      "/api/communication/3cx/initiate-call",
+      "/api/communication/3cx/record-consultation",
+      "/api/communication/3cx/conference-setup",
+      "/api/communication/3cx/compliance-log"
+    ],
+    "pricing": {
+      "included_in_tiers": [
+        "law_firm",
+        "enterprise"
+      ],
+      "addon_price_gbp": 149
+    }
+  },
+  "ms_teams": {
+    "tenant_id": "legal-hoiltd-tenant",
+    "legal_features": [
+      "Secure client meeting rooms",
+      "Document collaboration during calls",
+      "AI-powered meeting transcription",
+      "Integration with Office 365 legal templates",
+      "Breakout rooms for case team discussions",
+      "Recording with automatic retention policies"
+    ],
+    "compliance_features": [
+      "Data loss prevention (DLP) policies",
+      "Information barriers for conflict management",
+      "Compliance recording for regulatory requirements",
+      "eDiscovery integration"
+    ],
+    "api_endpoints": [
+      "/api/communication/teams/create-case-meeting",
+      "/api/communication/teams/schedule-consultation",
+      "/api/communication/teams/compliance-export",
+      "/api/communication/teams/transcript-analysis"
+    ],
+    "pricing": {
+      "included_in_tiers": [
+        "professional",
+        "law_firm",
+        "enterprise"
+      ],
+      "standalone_price_gbp": 99
+    }
+  }
+}
