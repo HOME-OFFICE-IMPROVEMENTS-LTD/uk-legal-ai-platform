@@ -1,12 +1,12 @@
-# Witness Statement of Mohammad Sadgi Al-Souri
+# Witness St2. Funding is available from third parties to discharge in full: (i) the petition debt and costs; (ii) all provable unsecured debts including [CREDITOR_DETAILS]; and (iii) the Official Receiver's fixed fees and administration costs. Evidence of funding and payment confirmations will be filed promptly on the Court's directions and following proofs of debt.tement of [DEBTOR_FULL_NAME]
 
 
 
-I, **Mohammad Sadgi Al-Souri**, of 66 Islip Gardens, Northolt UB5 5BY, state as follows:
+I, **[DEBTOR_FULL_NAME]**, of [DEBTOR_ADDRESS], state as follows:
 
 
 
-1. I apply to annul the bankruptcy order made against me on **22 August 2025** by the County Court at Central London (Insolvency No. **0095 of 2025**) under **section 282(1)(b) Insolvency Act 1986**, on the basis that the bankruptcy debts and costs will be paid in full to the satisfaction of the Court and the Official Receiver.
+1. I apply to annul the bankruptcy order made against me on **[BANKRUPTCY_ORDER_DATE]** by the County Court at [COURT_NAME] (Insolvency No. **[INSOLVENCY_NUMBER]**) under **section 282(1)(b) Insolvency Act 1986**, on the basis that the bankruptcy debts and costs will be paid in full to the satisfaction of the Court and the Official Receiver.
 
 
 
@@ -30,6 +30,6 @@ I believe that the facts stated in this witness statement are true.
 
 Signed: _______________________________  
 
-Name: **Mohammad Sadgi Al-Souri**  
+Name: **[DEBTOR_FULL_NAME]**  
 
 Dated: _______________________________

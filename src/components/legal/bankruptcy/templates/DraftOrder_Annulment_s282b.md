@@ -1,4 +1,6 @@
-IN THE COUNTY COURT AT CENTRAL LONDON
+IN THE COUNTY COURT AT [COURT_NAME]
+
+1. The Debtor's application for annulment under section 282(1)(b) of the Insolvency Act 1986 be listed for hearing at the first available date, time estimate 1 hour.THE COUNTY COURT AT CENTRAL LONDON
 
 1. The Debtor’s application for annulment under section 282(1)(b) of the Insolvency Act 1986 be listed for hearing at the first available date, time estimate 1 hour.
 
