@@ -1,6 +1,6 @@
 {
   "stripe": {
-    "publishable_key": "pk_test_legal_platform_key",
+    "publishable_key": "STRIPE_PUBLISHABLE_KEY_PLACEHOLDER",
     "webhook_endpoint": "/api/payments/stripe/webhook",
     "supported_currencies": [
       "GBP",
@@ -63,7 +63,7 @@
     }
   },
   "paypal": {
-    "client_id": "paypal_legal_client_id",
+    "client_id": "PAYPAL_CLIENT_ID_PLACEHOLDER",
     "webhook_endpoint": "/api/payments/paypal/webhook",
     "supported_currencies": [
       "GBP",
