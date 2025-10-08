@@ -1,0 +1,14 @@
+{
+  "prompts": {
+    "summarize_section": "Analyze this legal document section and create a structured summary with: 1) Key legal points, 2) Action items, 3) Deadlines/timelines, 4) Risk factors, 5) Strategic considerations. Focus on actionable insights.",
+    "extract_templates": "From this legal document section, identify reusable templates, standard procedures, and generalizable forms that could be used for similar cases. Output as structured markdown.",
+    "generate_checklist": "Create a detailed checklist from this legal document section for case management. Include deadlines, required documents, procedural steps, and compliance requirements.",
+    "identify_precedents": "Extract legal precedents, case references, statutory provisions, and procedural rules mentioned in this section. Format as a structured knowledge base entry."
+  },
+  "output_formats": {
+    "summary": "markdown with structured headings",
+    "checklist": "checkbox list with deadlines and priorities",
+    "templates": "markdown templates with [PLACEHOLDER] variables",
+    "knowledge_base": "structured JSON with categories and tags"
+  }
+}

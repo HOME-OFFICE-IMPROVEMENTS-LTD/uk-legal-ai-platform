@@ -1,0 +1,31 @@
+{
+  "case_id": "2025-10-08-bankruptcy",
+  "original_file": "docs/chats/gpt5-legal-research/2025-10-08-bankruptcy-discussion.md",
+  "split_timestamp": "2025-10-08 18:36:21 BST",
+  "total_lines": 16014,
+  "file_size": "732K",
+  "split_method": "content-aware-sectioning",
+  "script_version": "2.0.0",
+  "sections": {
+    "01-initial-situation": {
+      "lines": "1-4000",
+      "focus": "Overview, debt analysis, initial legal position",
+      "ai_tags": ["debt-analysis", "initial-assessment", "financial-position"]
+    },
+    "02-process-proceedings": {
+      "lines": "4001-8000", 
+      "focus": "Bankruptcy proceedings, legal process, court interactions",
+      "ai_tags": ["bankruptcy-process", "court-proceedings", "legal-procedure"]
+    },
+    "03-annulment-options": {
+      "lines": "8001-12000",
+      "focus": "Annulment procedures, s.282(1)(b) requirements, options analysis",
+      "ai_tags": ["annulment", "section-282", "legal-options", "strategy"]
+    },
+    "04-strategy-next-steps": {
+      "lines": "12001-end",
+      "focus": "Strategic recommendations, action plans, next steps",
+      "ai_tags": ["strategy", "action-plan", "next-steps", "implementation"]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "case_metadata": {
+    "case_id": "2025-10-08-bankruptcy",
+    "case_type": "bankruptcy_annulment",
+    "legal_basis": "s.282(1)(b) Insolvency Act 1986",
+    "status": "application_pending",
+    "created_date": "2025-10-08",
+    "platform_version": "2.0.0"
+  },
+  
+  "court_details": {
+    "court_name": "County Court at Central London",
+    "case_number": "0095 of 2025",
+    "hearing_date": "2025-11-15",
+    "hearing_time": "10:30 AM",
+    "hearing_duration": "30 minutes",
+    "judge_name": "[JUDGE_NAME]"
+  },
+  
+  "parties": {
+    "debtor_name": "[DEBTOR_FULL_NAME]",
+    "debtor_address": "[DEBTOR_ADDRESS]",
+    "witness_name": "[WITNESS_NAME]",
+    "witness_address": "[WITNESS_ADDRESS]",
+    "relationship_to_debtor": "[RELATIONSHIP_TO_DEBTOR]",
+    "petitioning_creditor": "[PETITIONING_CREDITOR]"
+  },
+  
+  "key_dates": {
+    "bankruptcy_date": "22 August 2025",
+    "application_filing_date": "8 October 2025",
+    "proofs_deadline": "1 November 2025",
+    "or_report_deadline": "7 November 2025",
+    "service_deadline": "18 October 2025"
+  },
+  
+  "financial_details": {
+    "total_debt_amount": "33,598",
+    "or_fees": "10,500",
+    "court_fees": "155",
+    "total_estimated_cost": "44,253",
+    "funding_source": "Third-party funds (company + family)",
+    "payment_source": "Available funds from assets and rental income"
+  },
+  
+  "assets": {
+    "main_residence": "Unencumbered property",
+    "buy_to_let_properties": "Two tenanted properties",
+    "rental_income": "Post-order rent held to estate order",
+    "mortgage_status": "Payments maintained from non-estate funds"
+  },
+  
+  "creditor_details": [
+    {
+      "creditor_name": "Sarah Allen",
+      "estimated_amount": "17,498",
+      "account_type": "Unsecured debt"
+    },
+    {
+      "creditor_name": "Barclaycard Account 1",
+      "estimated_amount": "6,600",
+      "account_type": "Credit card debt"
+    },
+    {
+      "creditor_name": "Barclaycard Account 2",
+      "estimated_amount": "9,500",
+      "account_type": "Credit card debt"
+    }
+  ],
+  
+  "legal_strategy": {
+    "primary_approach": "s.282(1)(b) annulment - payment in full",
+    "cooperation_status": "Full cooperation with Official Receiver",
+    "evidence_strategy": "Demonstrate ability to pay all debts and expenses",
+    "timeline_target": "6-8 weeks from application to annulment"
+  },
+  
+  "document_references": {
+    "witness_statement": "templates/legal/WitnessStatement_Template.md",
+    "draft_order": "templates/legal/DraftOrder_Annulment_s282b.md",
+    "case_discussion": "docs/cases/2025-10-08-bankruptcy/sections/",
+    "executive_summary": "docs/summaries/executive/2025-10-08-bankruptcy-executive-summary.md"
+  },
+  
+  "ai_integration": {
+    "copilot_prompts": [
+      "Generate N244 application for bankruptcy annulment",
+      "Create witness statement for s.282(1)(b) application",
+      "Draft case management order with standard timescales",
+      "Calculate all costs and deadlines for annulment application"
+    ],
+    "automation_scripts": [
+      "scripts/ai-integration/generate_template.sh",
+      "scripts/ai-integration/analyze_section.sh",
+      "scripts/document-processing/split_legal_document.sh"
+    ],
+    "quality_checks": [
+      "Variable substitution validation",
+      "Legal compliance checking",
+      "Document completeness verification",
+      "Timeline and deadline accuracy"
+    ]
+  },
+  
+  "platform_features": {
+    "template_generation": "Automated document creation with variable substitution",
+    "ai_enhancement": "Copilot-assisted content improvement and validation",
+    "bundle_creation": "Complete court bundle assembly",
+    "deadline_management": "Automated timeline and reminder system",
+    "progress_tracking": "Real-time case status and milestone monitoring"
+  }
+}
