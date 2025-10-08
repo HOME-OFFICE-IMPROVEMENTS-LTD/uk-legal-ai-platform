@@ -1,10 +1,9 @@
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+// Removed Google Fonts dependency for offline compatibility
+import LegalPlatformDemo from '../components/LegalPlatformDemo';
 
 export default function Home() {
   return (
-    <main className={`min-h-screen bg-gradient-to-br from-legal-primary to-legal-secondary ${inter.className}`}>
+    <main className="min-h-screen bg-gradient-to-br from-legal-primary to-legal-secondary font-sans">
       <div className="container mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="text-center text-white mb-16">
@@ -90,6 +89,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Interactive API Demo */}
+        <LegalPlatformDemo />
 
         {/* CTA Section */}
         <div className="text-center mt-16">

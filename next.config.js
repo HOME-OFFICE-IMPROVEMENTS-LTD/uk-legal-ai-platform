@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Remove output: 'export' to enable API routes
   trailingSlash: true,
   images: {
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://legal.hoiltd.com' : '',
+  // Only use assetPrefix for static export, not for API routes
+  assetPrefix: process.env.NEXT_EXPORT === 'true' ? 'https://legal.hoiltd.com' : '',
   env: {
     FASTAPI_BASE_URL: 'https://mobot-enterprise-api.redforest-36bfb1e8.eastus.azurecontainerapps.io',
     LEGAL_API_BASE: 'https://mobot-enterprise-api.redforest-36bfb1e8.eastus.azurecontainerapps.io/api/legal',
